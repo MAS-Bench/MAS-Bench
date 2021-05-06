@@ -1,0 +1,16 @@
+[
+    {
+        "tag" : "SEASHORE",
+        "color" : {
+            "value" : "BLUE",
+            "transparency" : 0.35
+        }
+    },
+    {
+        "tag" : "PLATFORM_ROOF",
+        "color" : {
+            "value" : "GRAY",
+            "transparency" : 0.40
+        }
+    }
+]
