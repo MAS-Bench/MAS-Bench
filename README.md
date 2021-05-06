@@ -2,25 +2,27 @@
 
 
 ## Requirements
-・CrowdWalk
+・python3.8 (3.8.3)
 
-##install command
+・numpy 1.19.4
+
+・scipy 1.5.4
+
+・pandas 1.1.4
+
 ```
-## Update packages
-apt-get update && \
-    apt-get upgrade -y
+pip install numpy
+pip install scipy
+pip install pandas
+```
 
-## Install command
-set -x && \
-    apt-get install -y gradle && \
-    apt-get install -y openjdk-11-jdk && \
-    apt-get install -y ruby
+・CrowdWalk
+・gradle
+・java
+・ruby
 
-##Clone pyenv and CrowdWalk
-cd ~ && \
-    git clone https://github.com/crest-cassia/CrowdWalk.git && \
-    cd ~/CrowdWalk/crowdwalk/ && \
-    gradle
+```
+git clone https://github.com/crest-cassia/CrowdWalk.git
 ```
 
 ## Implementation
