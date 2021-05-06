@@ -4,7 +4,7 @@ OPTPATH=$HOMEPATH"/Optimizar"
 BENCHPATH=$HOMEPATH"/../MAS-Bench"
 RESULTPATH=$HOMEPATH"/../Result"
 
-#Full path to CrowdWalk
+#Full path of CrowdWalk
 CWPATH="/home/member/Documents/CrowdWalk/crowdwalk/quickstart.sh"
 
 #bash $OPTPATH/optimization.sh {path of multi.sh} {path of output} {path of quickstart.sh for Crowdwalk} {benchmark test} {busy} {idle} {follow} {people} {GPSseparate} {mapname} {opt algorithm} {startcycle} {endcycle} {maxtest} {loop} {parallel}
