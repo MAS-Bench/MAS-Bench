@@ -1,0 +1,40 @@
+[
+    {
+        "tag" : "/^INDEXA/",
+        "model" : {
+            "className" : "SpeedModel"
+            "parameters" : {
+                "coefficientOfHue" : 0.35
+            }
+        },
+        "2D_View" : {
+            "className" : "SquareAgent"
+            "parameters" : {
+                "size":10.2822966507177034
+            }
+        },
+        "3D_View" : {
+          "className" : "TriangleMeshAgent",
+          "parameters" : {
+              "description" : "横向きの四角錐",
+              "points" : [
+                    0.0, 0.0, 0.0,
+                    0.0, 4.0, -2.0,
+                    -2.0, 4.0, 0.0,
+                    2.0, 4.0, 0.0,
+                    0.0, 4.0, 2.0
+                ],
+                "faces" : [
+                    0, 0,   2, 0,   1, 0,
+                    0, 0,   1, 0,   3, 0,
+                    0, 0,   3, 0,   4, 0,
+                    0, 0,   4, 0,   2, 0,
+                    4, 0,   1, 0,   2, 0,
+                    4, 0,   3, 0,   1, 0
+                ],
+              "rotationAngle" : 90.0,
+              "rotationAxis" : "Z"
+          }
+        }
+    }
+]
