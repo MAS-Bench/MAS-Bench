@@ -17,8 +17,11 @@ pip install pandas
 ```
 
 ・CrowdWalk
+
 ・gradle
+
 ・java
+
 ・ruby
 
 ```
@@ -34,5 +37,17 @@ cd UseCase
 
 #CWPATH in main.sh need modified.
 #CWPATH={full path of CrowdWalk}
+sh main.sh
+```
+
+##Use docker
+```
+#terminal
+pwd  #check your {MAS-Bench path}
+docker build -f ./Dockerfile -t masbench .
+docker run -it -u ${UID}:${GID} -v /{MAS-Bench path}/:/mount_data/ -e LOCAL_UID=$(id -u $USER) -e LOCAL_GID=$(id -g $USER) --name masbench masbench:latest bash
+
+#docker
+cd /mount_data/UseCase
 sh main.sh
 ```
