@@ -22,6 +22,14 @@ tar xf masbench-sample.tar.gz
 cd masbench-sample
 sh main.sh
 ```
+or
+```
+git clone https://github.com/MAS-Bench/MAS-Bench.git
+cd MAS-Bench
+sh ./release-archive-build.sh
+cd masbench-sample
+sh main.sh
+```
 
 ## MAS-Bench commands
 - `java -jar MAS-Bench-all.jar init`
