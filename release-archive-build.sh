@@ -4,7 +4,7 @@ cd $(dirname $0)
 rm -rf masbench-sample
 cp -r sample masbench-sample
 cd MAS-Bench
-gradle
+./gradlew
 cp build/libs/MAS-Bench-all.jar ../masbench-sample/
 cd ..
 cp README.md masbench-sample/
