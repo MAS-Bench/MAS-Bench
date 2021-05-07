@@ -1,14 +1,13 @@
 # MAS-Bench
 
-
 ## Requirements
-・python3.8 (3.8.3)
+- OpenJDK 11
 
-・numpy 1.19.4
-
-・scipy 1.5.4
-
-・pandas 1.1.4
+## Requirements for sample-code
+- python3.8 (3.8.3)
+- numpy 1.19.4
+- scipy 1.5.4
+- pandas 1.1.4
 
 ```
 pip install numpy
@@ -16,23 +15,28 @@ pip install scipy
 pip install pandas
 ```
 
-・CrowdWalk
-・gradle
-・java
-・ruby
-
+## How to run sample-code
 ```
-git clone https://github.com/crest-cassia/CrowdWalk.git
-```
-
-## Implementation
-Run from termianl by (one example):
-
-```
-#current directory: Moving from MAS-Bench to UseCase.
-cd UseCase
-
-#CWPATH in main.sh need modified.
-#CWPATH={full path of CrowdWalk}
+wget [masbench-sample.tar.gz url]
+tar xf masbench-sample.tar.gz
+cd masbench-sample
 sh main.sh
 ```
+
+## MAS-Bench commands
+- `java -jar masbench.jar init`
+- `java -jar masbench.jar <Model name> <Working dir> <Parameter CSV file>`
+
+### Model name
+- FS1-1
+- FS1-2
+- FS1-3
+- FS1-4
+- FL1-1
+- FL1-2
+- FL1-3
+- FL1-4
+
+### Parameter CSV file format
+
+### Output file format
