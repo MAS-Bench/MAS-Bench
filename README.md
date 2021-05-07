@@ -24,8 +24,8 @@ sh main.sh
 ```
 
 ## MAS-Bench commands
-- `java -jar masbench.jar init`
-- `java -jar masbench.jar <Model name> <Working dir> <Parameter CSV file>`
+- `java -jar MAS-Bench-all.jar init`
+- `java -jar MAS-Bench-all.jar <Model name> <Working dir> <Parameter CSV file>`
 
 ### Model name
 - FS1-1

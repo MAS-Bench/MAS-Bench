@@ -1,11 +1,12 @@
 #!/bin/sh
 MASBENCH_JAR="./MAS-Bench-all.jar"
+RESULTS_DIR="./results"
 
 #bash $OPTPATH/optimization.sh {path of multi.sh} {path of output} {path of quickstart.sh for Crowdwalk} {benchmark test} {busy} {idle} {follow} {people} {GPSseparate} {mapname} {opt algorithm} {startcycle} {endcycle} {maxtest} {loop} {parallel}
 #test
 #bash $OPTPATH/optimization.sh $HOMEPATH $OPTPATH $BENCHPATH $RESULTPATH $CWPATH "FS1-1" "Small" "CMAES" 0 2 10 0 20
 
-bash optimizer/optimization.sh ../MAS-Bench-all.jar results FS1-1 RS 0 5 10 1 20
+bash optimizer/optimization.sh $MASBENCH_JAR $RESULTS_DIR FS1-1 RS 0 2 10 0 20
 
 #Small Size
 #bash $OPTPATH/optimization.sh $HOMEPATH $OPTPATH $BENCHPATH $RESULTPATH $CWPATH "FS1-1" "Small" "RS" 0 40 20 0 20
