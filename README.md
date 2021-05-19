@@ -17,7 +17,7 @@ pip install pandas
 
 ## How to run sample-code
 ```
-wget [masbench-sample.tar.gz url]
+wget https://github.com/MAS-Bench/MAS-Bench/releases/download/v0.4/masbench-sample.tar.gz
 tar xf masbench-sample.tar.gz
 cd masbench-sample
 sh main.sh
