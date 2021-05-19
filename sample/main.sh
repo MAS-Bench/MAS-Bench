@@ -1,5 +1,5 @@
 #!/bin/sh
-MASBENCH_JAR="./MAS-Bench-all.jar"
+MASBENCH_JAR="./MAS-Bench.jar"
 RESULTS_DIR="./results"
 
 #bash $OPTPATH/optimization.sh {path of multi.sh} {path of output} {path of quickstart.sh for Crowdwalk} {benchmark test} {busy} {idle} {follow} {people} {GPSseparate} {mapname} {opt algorithm} {startcycle} {endcycle} {maxtest} {loop} {parallel}
