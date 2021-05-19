@@ -5,7 +5,7 @@ rm -rf masbench-sample
 cp -r sample masbench-sample
 cd MAS-Bench
 ./gradlew
-cp build/libs/MAS-Bench-all.jar ../masbench-sample/
+cp build/libs/MAS-Bench.jar ../masbench-sample/
 cd ..
 cp README.md masbench-sample/
 tar zcf masbench-sample.tar.gz masbench-sample
