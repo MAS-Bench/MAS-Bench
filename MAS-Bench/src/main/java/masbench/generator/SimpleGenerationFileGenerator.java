@@ -14,6 +14,7 @@ public class SimpleGenerationFileGenerator extends AbstractGenerationFileGenerat
     ArrayList<ArrayList<Integer>> generationArray = new ArrayList<>();
     public SimpleGenerationFileGenerator(Path parameterCsvPath, Path generationJsonPath, Path simulationStartFlowCsvPath, ModelProperty modelProperty) {
         super(parameterCsvPath, generationJsonPath, simulationStartFlowCsvPath, new Double(modelProperty.getNumberOfPeople()), modelProperty.getGpsSeparating());
+        readCsv();
     }
 
     @Override
