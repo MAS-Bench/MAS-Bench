@@ -10,8 +10,10 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
 import masbench.evaluator.PerformanceEvaluator;
+import masbench.generator.AbstractGenerationFileGenerator;
 import masbench.generator.GenerationFileGenerator;
 import masbench.generator.PropertiesFileGenerator;
+import masbench.generator.SimulationGenerationFileGenerator;
 import nodagumi.ananPJ.CrowdWalkLauncher;
 import org.apache.pdfbox.io.IOUtils;
 
@@ -58,7 +60,7 @@ public class MasBench {
     final Path propertyJsonPath = propertyDirectoryPath.resolve("prop.json");
     final Path simulationStartFlowCsvPath = propertyDirectoryPath.resolve("simulationStartFlow.csv");
 
-    GenerationFileGenerator.Simulation generationFileGenerator = new GenerationFileGenerator.Simulation(parameterCsvPath, generationJsonPath, simulationStartFlowCsvPath, modelProperty);
+    AbstractGenerationFileGenerator generationFileGenerator = GenerationFileGenerator.getGenerator(parameterCsvPath, generationJsonPath, simulationStartFlowCsvPath, modelProperty);
     generationFileGenerator.generate();
     PropertiesFileGenerator propertiesFileGenerator = new PropertiesFileGenerator(propertyJsonPath, getResourcesDirectoryPath().resolve(SIMULATOR_SCENARIO), modelProperty);
     propertiesFileGenerator.generate();
