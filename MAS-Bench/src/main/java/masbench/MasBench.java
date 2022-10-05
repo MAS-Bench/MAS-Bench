@@ -70,6 +70,10 @@ public class MasBench {
         "-c", "-lError"
     });
 
+    if (true) {
+      return;
+    }
+
     PerformanceEvaluator.SimulationResultEvaluator evaluator = new PerformanceEvaluator.SimulationResultEvaluator(logDirectoryPath, analyzeDirectoryPath, modelProperty);
     evaluator.outputResults();
   }

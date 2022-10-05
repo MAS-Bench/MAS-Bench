@@ -60,9 +60,9 @@ public class PropertiesFileGenerator {
           "  \"individual_pedestrians_log_dir\":\"../log/\",\r\n" + 
           "  \"evacuated_agents_log_file\":\"../log/evacuatedAgent.csv\",\r\n" + 
           "\r\n" + 
-          "  \"record_simulation_screen\":false,\r\n" + 
+          "  \"record_simulation_screen\":true,\r\n" +
           //"  \"screenshot_dir\": \"../log/"+fileName+"/screenshots\",\r\n" +
-          "  \"screenshot_dir\": \"../log/screenshots\",\r\n" +
+          "  \"screenshot_dir\": \"./screenshots\",\r\n" +
           "  \"clear_screenshot_dir\":true,\r\n" +
           "  \"screenshot_image_type\":\"png\",\r\n" + 
           "\r\n" + 
