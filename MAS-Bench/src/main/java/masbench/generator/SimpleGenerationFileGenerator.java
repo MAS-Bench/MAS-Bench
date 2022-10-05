@@ -1,6 +1,5 @@
 package masbench.generator;
 
-import jnr.ffi.annotations.In;
 import masbench.ModelProperty;
 import masbench.generator.value.Time;
 

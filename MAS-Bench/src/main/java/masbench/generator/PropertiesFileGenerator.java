@@ -62,7 +62,7 @@ public class PropertiesFileGenerator {
           "\r\n" + 
           "  \"record_simulation_screen\":true,\r\n" +
           //"  \"screenshot_dir\": \"../log/"+fileName+"/screenshots\",\r\n" +
-          "  \"screenshot_dir\": \"./screenshots\",\r\n" +
+          "  \"screenshot_dir\": \"../screenshots\",\r\n" +
           "  \"clear_screenshot_dir\":true,\r\n" +
           "  \"screenshot_image_type\":\"png\",\r\n" + 
           "\r\n" + 
