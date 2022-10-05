@@ -46,9 +46,9 @@ public class PropertiesFileGenerator {
           "  \"fallback_file\":\""+ scenarioDirectory +"Fallback.json\",\r\n" +
           "  \"camera_file\":\""+ scenarioDirectory +"Camera.json\",\r\n" +
           "\r\n" + 
-          "  \"show_background_map\":false,\r\n" + 
-          "  \"gsi_tile_name\":\"ort\",\r\n" + 
-          "  \"gsi_tile_zoom\":17,\r\n" + 
+          "  \"show_background_map\":false,\r\n" +
+          //"  \"gsi_tile_name\":\"ort\",\r\n" +
+          //"  \"gsi_tile_zoom\":17,\r\n" +
           "\r\n" + 
           "\r\n" + 
           "  \"randseed\":2524,\r\n" + 
@@ -67,7 +67,7 @@ public class PropertiesFileGenerator {
           "  \"screenshot_image_type\":\"png\",\r\n" + 
           "\r\n" + 
           "  \"agent_size\":3.0,\r\n" + 
-          "  \"zoom\":1.6,\r\n" + 
+          "  \"zoom\":8.86,\r\n" +
           "  \"show_3D_polygon\":true,\r\n" + 
           "  \"change_agent_color_depending_on_speed\":true,\r\n" + 
           "  \"show_status\":\"Bottom\",\r\n" + 
