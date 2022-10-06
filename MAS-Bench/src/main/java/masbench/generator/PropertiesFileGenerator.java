@@ -45,7 +45,8 @@ public class PropertiesFileGenerator {
           "  \"scenario_file\":\""+ scenarioDirectory +"../Dataset/" + modelProperty.getName() + "/Scenario_Guidance.json\",\r\n" +
           "  \"fallback_file\":\""+ scenarioDirectory +"Fallback.json\",\r\n" +
           "  \"camera_file\":\""+ scenarioDirectory +"Camera.json\",\r\n" +
-          "\r\n" + 
+          "  \"camera_2d_file\":\""+ scenarioDirectory +"camera_2d.json\",\r\n" +
+          "\r\n" +
           "  \"show_background_map\":false,\r\n" +
           //"  \"gsi_tile_name\":\"ort\",\r\n" +
           //"  \"gsi_tile_zoom\":17,\r\n" +
