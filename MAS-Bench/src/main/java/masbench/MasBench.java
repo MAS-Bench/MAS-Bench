@@ -67,7 +67,7 @@ public class MasBench {
 
     CrowdWalkLauncher.main(new String[]{
       propertyJsonPath.toAbsolutePath().toString(),
-        "-g2", "-lError"
+        "-g", "-lError"
     });
 
     if (true) {
