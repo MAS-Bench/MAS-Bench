@@ -73,7 +73,7 @@ public class PropertiesFileGenerator {
           "  \"show_status\":\"Bottom\",\r\n" + 
           "  \"show_logo\":false,\r\n" + 
           "  \"exit_with_simulation_finished\":true,\r\n" + 
-          "  \"simulation_window_open\":false,\r\n" + 
+          "  \"simulation_window_open\":true,\r\n" +
           "  \"auto_simulation_start\":true,\r\n" + 
           "\r\n" + 
           "  \"use_ruby\": true,\r\n" + 
