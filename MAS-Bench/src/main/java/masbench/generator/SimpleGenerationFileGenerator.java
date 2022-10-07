@@ -96,7 +96,7 @@ public class SimpleGenerationFileGenerator extends AbstractGenerationFileGenerat
                 }
 
                 Integer sumDist = Arrays.stream(nums).sum();
-                pw.println(t + "," + nums[1] + "," + nums[0] + "," + nums[2] + "," + sumDist);
+                pw.println(t + "," + nums[1] + "," + nums[2] + "," + nums[0] + "," + sumDist);
             }
             pw.close();
         } catch (IOException e) {
