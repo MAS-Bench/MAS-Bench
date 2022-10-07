@@ -1,6 +1,5 @@
 package masbench.generator;
 
-import jnr.ffi.annotations.In;
 import masbench.ModelProperty;
 import masbench.generator.value.Time;
 
@@ -50,10 +49,10 @@ public class SimpleGenerationFileGenerator extends AbstractGenerationFileGenerat
                     if (t.c < aTypeGen.size() && aTypeGen.get(t.c) > 0) {
                         switch (type) {
                             case 0:
-                                pw.println(naiveAgent(startTime, aTypeGen.get(t.c)));
+                                pw.println(rationalAgent(startTime, aTypeGen.get(t.c)));
                                 break;
                             case 1:
-                                pw.println(rationalAgent(startTime, aTypeGen.get(t.c)));
+                                pw.println(naiveAgent(startTime, aTypeGen.get(t.c)));
                                 break;
                             case 2:
                                 pw.println(rubyAgent(startTime, aTypeGen.get(t.c)));
@@ -97,7 +96,7 @@ public class SimpleGenerationFileGenerator extends AbstractGenerationFileGenerat
                 }
 
                 Integer sumDist = Arrays.stream(nums).sum();
-                pw.println(t + "," + nums[0] + "," + nums[1] + "," + nums[2] + "," + sumDist);
+                pw.println(t + "," + nums[1] + "," + nums[0] + "," + nums[2] + "," + sumDist);
             }
             pw.close();
         } catch (IOException e) {
