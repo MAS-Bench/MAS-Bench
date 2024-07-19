@@ -53,7 +53,9 @@ sh main.sh
 We would appreciate if you cite following paper when you publish your research.
 
 https://link.springer.com/article/10.1007/s42001-024-00302-6
+
 https://dl.acm.org/doi/10.5555/3463952.3464190
+
 - BibTeX
 ```
 @article{10.1007/s42001-024-00302-6,
