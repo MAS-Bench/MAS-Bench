@@ -52,9 +52,20 @@ sh main.sh
 ## Publication
 We would appreciate if you cite following paper when you publish your research.
 
+https://link.springer.com/article/10.1007/s42001-024-00302-6
 https://dl.acm.org/doi/10.5555/3463952.3464190
 - BibTeX
 ```
+@article{10.1007/s42001-024-00302-6,
+author = {Shigenaka, Shusuke and Takami, Shunki and Tanigaki, Yuki and Watanabe, Shuhei and Onishi, Masaki},
+title = {MAS-Bench: a benchmarking for parameter calibration of multi-agent crowd simulation},
+year = {2024},
+publisher = {Multi-agent simulation (MAS) has attracted significant attention for the prevention of pedestrian accidents and the spread of infectious diseases caused by overcrowding in recent years. In the MAS paradigm, each pedestrian is represented by a single agent. Control parameters for each agent need to be calibrated based on pedestrian traffic data to reproduce phenomena of interest accurately. Furthermore, observing all pedestrian traffic at large-scale events such as festivals and sports games is difficult. In such cases, parameter optimization is essential so that the appropriate parameters can be determined by solving an error minimization problem between the simulation results and incomplete observed pedestrian traffic data. We propose a benchmark problem, namely MAS-Bench, to discuss the performance of MAS parameter calibration methods uniformly. Numerical experiments demonstrate the baseline performance of four well-known optimization methods on six different error minimization problems that are defined on MAS-Bench. Moreover, we investigate the validity of the error function in the calibration by evaluating the correlation between the calibration and estimation scores. These scores are error functions relating to the available and unavailable observations, respectively.},
+booktitle = {Journal of Computational Social Science},
+keywords = {multi-agent crowd simulation, parameter calibration, meta-heuristic optimization benchmarking}
+}
+
+
 @inproceedings{10.5555/3463952.3464190,
 author = {Shigenaka, Shusuke and Takami, Shunki and Watanabe, Shuhei and Tanigaki, Yuki and Ozaki, Yoshihiko and Onishi, Masaki},
 title = {MAS-Bench: Parameter Optimization Benchmark for Multi-Agent Crowd Simulation},
